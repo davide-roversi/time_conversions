@@ -35,7 +35,7 @@ for i in range (np.size(JD_sat)):
             file.close()
 np.savetxt('error.dat', error) # error between UTC and UT1 (in seconds) for each julian date in the input file
 plt.plot(JD_sat,error)
-plt.savefig('UT1-UTC error.jpg')
+plt.savefig('UT1-UTC_error.jpg')
 
 ##########################################################################################################
 
