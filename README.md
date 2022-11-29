@@ -15,6 +15,6 @@ The second part of the script looks for the 'leap-seconds.dat' file locally and 
 In the folder there is already a file named 'JD.dat', which contains some Julian days to be used as demonstration for the code, ranging from 24598325.5 (10 Sept 2022) to 2459911.5 (28 Nov 2022).
 The plot of the UT1-UTC differences is the following:
 
-![alt text](UT1-UTC_error.jpg "UT1-UTC error")
+![alt text](UT1-UTC error.jpg "UT1-UTC error")
 
 The TAI-UTC difference from the example is 18 s.
