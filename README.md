@@ -10,6 +10,10 @@ The first part of the code looks for the 'conversionTable.dat' file locally and 
 
 The second part of the script looks for the 'leap-seconds.dat' file locally and downloads it from the website if it cannot find it. Then, the file is opened at the last line, which contains the latest leap-second addition and the expression to calculate the TAI-UTC offset. Knowing the date at which GPS was synchronized with UTC an the offset between TAI and UTC at that time, the script computes the current offset between UTC and GPS for the users to implement in their codes.
 
+# Remark
+
+This code simply retrieves the time conversion table and leap seconds table and applies the data contained in them to a vector of Julian days. It is therefore (purposely) lacking the code that calculates UTC, UT1 and GPS time in seconds since the J2000 epoch, that is asked for the Assignment 1.
+
 # Example
 
 In the folder there is already a file named 'JD.dat', which contains some Julian days to be used as demonstration for the code, ranging from 24598325.5 (10 Sept 2022) to 2459911.5 (28 Nov 2022).
